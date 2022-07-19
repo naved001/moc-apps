@@ -12,6 +12,8 @@ resources:
   - certificates/default-ingress-certificate.yaml
   - clusterversions/version.yaml
   - clusterrolebindings/xdmod-reader-cluster-monitor
+  - clusterrolebindings/xdmod-reader-query-namespaces
+  - clusterroles/query-namespaces
   - configmaps/admin-acks.yaml
   - externalsecrets/sso-clientsecret-moc.yaml
   - externalsecrets/sso-clientsecret-moc-testing.yaml
